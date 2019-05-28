@@ -4,17 +4,16 @@ Brain dump of desired features for this project, as well as potentially useful r
 For a more detailed description of the application components, hierarchy, and prop definitions, visit the [Application Architecture](/ARCHITECTURE.md) doc in the repo.
 
 #### Table of Contents
-[General Features](#general-features)<br>
+[Setup/installation Wizard](#setup-installation-wizard)<br>
 [Brew Log List](#brew-log-list)<br>
 [Brew Log](#brew-log)<br>
 [Equipment List](#equipment-list)<br>
+[Wishlist](#wishlist)<br>
 [Resources](#resources)<br>
 
 ## Features List
 
-### General Features
-
-#### Setup/installation wizard
+### Setup/installation wizard
 - [ ] Setup environment/paths
 - [ ] MongoDB config
 - [ ] Brewery/User info
@@ -65,10 +64,11 @@ For a more detailed description of the application components, hierarchy, and pr
 	* Description/specs (mash tun dimensions, for example)
 	* Photo/image?
 	* Mark as need to be replaced
-* Wishlist
-	* Priority items
-	* Add links and price
-	* Ability to set item as "Purchased", so it moves from Wishlist to Equipment List
+
+### Wishlist
+* Priority items
+* Add links and price
+* Ability to set item as "Purchased", so it moves from Wishlist to Equipment List
 
 ### Resources
 * [https://github.com/homebrewing/brauhausjs](https://github.com/homebrewing/brauhausjs)
