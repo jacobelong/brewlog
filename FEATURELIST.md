@@ -15,8 +15,14 @@ Brain dump of desired features for this project, as well as potentially useful r
   
 ## Brew Log
 * Name of beer
+* Brewer(s)
 * Brew date
+* Batch size
+* Type (all-grain/extract)
 * Ingredients list
+	* Name
+	* Amount/weight/volume
+* Water profile info
 * Procedure Notes
 * Taste notes
 * BJCP Style
@@ -32,14 +38,14 @@ Brain dump of desired features for this project, as well as potentially useful r
 * Version/revisions
 	* Be able to create relationships between brews, e.g. fork/branch like Git
 		* Suggest possible revisions connected with Tasting Notes? Basically, add a feature wherein one could suggest variations, like adding Coffee, changing hops,
-* BeerXML import?
+* BeerXML import (from BeerSmith)?
 
 ## Equipment List
 * Current equipment
 	* Including specs in description
 * Wishlist
-* Priority items
-* Add links and price
+	* Priority items
+	* Add links and price
 
 ## Resources
 * [https://github.com/homebrewing/brauhausjs](https://github.com/homebrewing/brauhausjs)
