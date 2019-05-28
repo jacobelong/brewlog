@@ -1,0 +1,54 @@
+body {
+	font-family: $global-font-family;
+  font-size: $global-font-size;
+  margin: 0;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $base-heading-font-family;
+}
+
+h1 {
+	font-size: $global-xxlarge-font-size;
+}
+h2 {
+	font-size: $global-xlarge-font-size;
+}
+h3 {
+	font-size: $global-large-font-size;
+}
+h4 {
+	font-size: $global-medium-font-size;
+}
+h5 {
+	font-size: $global-font-size;
+
+	&.SectionLabel {
+		font-family: $global-font-family;
+		font-size: 0.75rem;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: lighten($black-base, 40%);
+		padding-bottom: 0.5rem;
+		border-bottom: 1px solid $gray-base;
+		display: block;
+	}
+}
+h6 {
+	font-size: $global-small-font-size;
+}
+
+a {
+	text-decoration: none;
+	color: $black-base;
+	transition: all .4s;
+
+	&:hover {
+		color: $blue-base;
+	}
+}

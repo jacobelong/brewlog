@@ -1,0 +1,20 @@
+// Brew Log
+//---------------------------------------------------
+.BrewLogList-Item {
+	margin-bottom: 1.25rem;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	a {
+		font-size: $global-xxlarge-font-size;
+		font-family: "Lora", serif;
+		border-bottom: 6px solid transparent;
+
+		&:hover {
+			color: $blue-base;
+			border-bottom-color: $blue-base;
+		}
+	}
+}
