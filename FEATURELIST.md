@@ -15,11 +15,11 @@ For a more detailed description of the application components, hierarchy, and pr
 ### General Features
 
 #### Setup/installation wizard
-[ ] Setup environment/paths<br>
-[ ] MongoDB config<br>
-[ ] Brewery/User info<br>
-[ ] Import BeerSmith/BeerXML file to start<br>
-[ ] Set options (ºF/ºC, Metric/Imperial, etc)<br>
+- [ ] Setup environment/paths
+- [ ] MongoDB config
+- [ ] Brewery/User info
+- [ ] Import BeerSmith/BeerXML file to start
+- [ ] Set options (ºF/ºC, Metric/Imperial, etc)
 
 ### Brew Log List
 * Display all brew logs
