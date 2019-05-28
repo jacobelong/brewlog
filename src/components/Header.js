@@ -20,7 +20,7 @@ export default class Header extends Component {
               <a href="/" className="Logo"><i className="fas fa-beer"></i></a>
             </div>
 
-            <div className="SiteTitle"><a href="/">The Homebrew Fool</a></div>
+            <div className="SiteTitle"><a href="/">BrewLog</a></div>
 
             <div className="NavBar-Toggle-Container">
               <button className="NavBar-Toggle" onClick={this.showHideMenu}>
