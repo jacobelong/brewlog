@@ -1,7 +1,17 @@
 # Brew Log Features
 Brain dump of desired features for this project, as well as potentially useful resources, such as helpful JavaScript libraries. Create a simple outline of components, props, and hierarchy.
 
-## Brew Log List
+#### Table of Contents
+[Feature List](#features-list)<br>
+[Brew Log List](#brew-log-list)<br>
+[Brew Log](#brew-log)<br>
+[Equipment List](#equipment-list)<br>
+[Resources](#resources)<br>
+[Component Hierarchy](#component-hierarchy)<br>
+
+## Features List
+
+### Brew Log List
 * Display all brew logs
 * Search by name (auto-filter as you type)
 * Sort by date/recency
@@ -14,7 +24,7 @@ Brain dump of desired features for this project, as well as potentially useful r
 	* Both?
 	* Just a general faceted search based on all criteria?
   
-## Brew Log
+### Brew Log
 * Name of beer
 * Brewer(s)
 * Brew date
@@ -39,17 +49,81 @@ Brain dump of desired features for this project, as well as potentially useful r
 		* Suggest possible revisions connected with Tasting Notes? Basically, add a feature wherein one could suggest variations, like adding Coffee, changing hops,
 * BeerXML import (from BeerSmith)?
 
-## Equipment List
+### Equipment List
 * Current equipment
 	* Name
 	* Description/specs (mash tun dimensions, for example)
 	* Photo/image?
-	* Including specs in description
+	* Mark as need to be replaced
 * Wishlist
 	* Priority items
 	* Add links and price
 	* Ability to set item as "Purchased", so it moves from Wishlist to Equipment List
 
-## Resources
+### Resources
 * [https://github.com/homebrewing/brauhausjs](https://github.com/homebrewing/brauhausjs)
 * [https://github.com/homebrewing/tapline](https://github.com/homebrewing/tapline)
+
+---
+
+## Component Hierarchy
+- `App`
+	- `BrewLogList`
+		- `BrewLog`
+			- `Recipe` : [props](#recipe)
+				- `Ingredient` : [props](#ingredient)
+				- `WaterProfile` : [props](#waterprofile)
+				- `BJCPStyle` : [props](#bjcpstyle)
+			- `Brewer` : [props](#brewer)
+			- `Rating` : [props](#rating)
+			- `PhotoGallery` : [props](#photogallery)
+		- `Search/Filter`
+			- `FilterOption`
+	- `EquipmentList`
+	    - `EquipmentItem` : [props](#equipmentitem)
+	- `WishList`
+	    - `WishListItem` : [props](#wishlistitem)
+		- isPurchased handler : [props](#ispurchased-handler)
+		
+### App
+
+### BrewLogList
+
+### BrewLog
+
+### Recipe
+- `name`
+- `brewedOnDate`
+- `batchSize`
+- `type`
+- `procedureNotes`
+- `tastingNotes`
+- `stats`
+- `version`
+
+### Brewer
+
+### Rating
+
+### PhotoGallery
+
+### SearchFilter
+
+### FilterOption
+
+### EquipmentList
+
+### EquipmentItem
+- `name`
+- `description`
+- `photo`
+- `needsReplaced`
+
+### WishList
+
+### WishListItem
+- `isPriority`
+- `link`
+- `price`
+
+### isPurchased Handler
