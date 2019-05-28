@@ -1,12 +1,13 @@
 # Brew Log Features
-Brain dump of desired features for this project, as well as potentially useful resources, such as helpful JavaScript libraries. Create a simple outline of components, props, and hierarchy.
+Brain dump of desired features for this project, as well as potentially useful resources, such as helpful JavaScript libraries.
+
+For a more detailed description of the application components, hierarchy, and prop definitions, visit the [Application Architecture](/Architecture.md) doc in the repo.
 
 #### Table of Contents
 [Brew Log List](#brew-log-list)<br>
 [Brew Log](#brew-log)<br>
 [Equipment List](#equipment-list)<br>
 [Resources](#resources)<br>
-[Component Hierarchy](#component-hierarchy)<br>
 
 ## Features List
 
@@ -62,124 +63,3 @@ Brain dump of desired features for this project, as well as potentially useful r
 ### Resources
 * [https://github.com/homebrewing/brauhausjs](https://github.com/homebrewing/brauhausjs)
 * [https://github.com/homebrewing/tapline](https://github.com/homebrewing/tapline)
-
----
-
-## Component Hierarchy
-- [`App`](#app)
-	- [`BrewLogList`](#brewloglist)
-		- [`BrewLog`](#brewlog)
-			- [`Recipe`](#recipe)
-				- [`Ingredient`](#ingredient)
-				- [`WaterProfile`](#waterprofile)
-				- [`BJCPStyle`](#bjcpstyle)
-			- [`Brewer`](#brewer)
-			- [`Rating`](#rating)
-			- [`PhotoGallery`](#photogallery)
-		- [`Search/Filter`](#searchfilter)
-			- [`FilterOption`](#filteroption)
-	- [`EquipmentList`](#equipmentlist)
-	    - [`EquipmentItem`](#equipmentitem)
-	- [`WishList`](#wishlist)
-	    - [`WishListItem`](#wishlistitem)
-		- [`isPurchased handler`](#ispurchased-handler)
-		
-## Component Definitions
-
-#### `App`
-props:<br>
-
-#
-
-#### `BrewLogList`
-props:<br>
-
-#
-
-#### `BrewLog`
-props:<br>
-
-#
-
-#### `Recipe`
-props:<br>
-`name`<br>
-`brewedOnDate`<br>
-`batchSize`<br>
-`type`<br>
-`procedureNotes`<br>
-`tastingNotes`<br>
-`stats`<br>
-`version`<br>
-
-#
-
-#### `Ingredient`
-props:<br>
-
-#
-
-#### `WaterProfile`
-props:<br>
-
-#
-
-#### `BJCPStyle`
-props:<br>
-
-#
-
-#### `Brewer`
-props:<br>
-
-#
-
-#### `Rating`
-props:<br>
-
-#
-
-#### `PhotoGallery`
-props:<br>
-
-#
-
-#### `SearchFilter`
-props:<br>
-
-#
-
-#### `FilterOption`
-props:<br>
-
-#
-
-#### `EquipmentList`
-props:<br>
-
-#
-
-#### `EquipmentItem`
-props:<br>
-`name`<br>
-`description`<br>
-`photo`<br>
-`needsReplaced`<br>
-
-#
-
-#### `WishList`
-props:<br>
-
-#
-
-#### `WishListItem`
-props:<br>
-`isPriority`<br>
-`link`<br>
-`price`<br>
-
-#
-
-#### `isPurchased Handler`
-props:<br>
