@@ -4,7 +4,7 @@ Brain dump of desired features for this project, as well as potentially useful r
 For a more detailed description of the application components, hierarchy, and prop definitions, visit the [Application Architecture](/ARCHITECTURE.md) doc in the repo.
 
 #### Table of Contents
-[Setup/installation Wizard](#setup-installation-wizard)<br>
+[Setup/installation Wizard](#setupinstallation-wizard)<br>
 [Brew Log List](#brew-log-list)<br>
 [Brew Log](#brew-log)<br>
 [Equipment List](#equipment-list)<br>
