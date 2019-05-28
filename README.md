@@ -1,3 +1,12 @@
+# BrewLog App
+
+## Docs
+
+[Feature List](/FEATURELIST.md)
+[Application Architecture](/Architecture.md)
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
