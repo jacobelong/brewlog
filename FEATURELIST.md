@@ -7,8 +7,8 @@ Brain dump of desired features for this project, as well as potentially useful r
 [Brew Log](#brew-log)<br>
 [Equipment List](#equipment-list)<br>
 [Resources](#resources)<br>
-###### Component Hierarchy
-[Overview](#component-hierarchy)<br>
+
+[Component Hierarchy](#component-hierarchy)<br>
 
 ## Features List
 
