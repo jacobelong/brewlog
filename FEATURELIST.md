@@ -86,51 +86,102 @@ Brain dump of desired features for this project, as well as potentially useful r
 	    - [`WishListItem`](#wishlistitem)
 		- [`isPurchased handler`](#ispurchased-handler)
 		
-### App
+## Component Definitions
 
-### BrewLogList
+#### `App`
+props:<br>
 
-### BrewLog
+#
 
-### Recipe
-- `name`
-- `brewedOnDate`
-- `batchSize`
-- `type`
-- `procedureNotes`
-- `tastingNotes`
-- `stats`
-- `version`
+#### `BrewLogList`
+props:<br>
 
-### Ingredient
+#
 
-### WaterProfile
+#### `BrewLog`
+props:<br>
 
-### BJCPStyle
+#
 
-### Brewer
+#### `Recipe`
+props:<br>
+`name`<br>
+`brewedOnDate`<br>
+`batchSize`<br>
+`type`<br>
+`procedureNotes`<br>
+`tastingNotes`<br>
+`stats`<br>
+`version`<br>
 
-### Rating
+#
 
-### PhotoGallery
+#### `Ingredient`
+props:<br>
 
-### SearchFilter
+#
 
-### FilterOption
+#### `WaterProfile`
+props:<br>
 
-### EquipmentList
+#
 
-### EquipmentItem
-- `name`
-- `description`
-- `photo`
-- `needsReplaced`
+#### `BJCPStyle`
+props:<br>
 
-### WishList
+#
 
-### WishListItem
-- `isPriority`
-- `link`
-- `price`
+#### `Brewer`
+props:<br>
 
-### isPurchased Handler
+#
+
+#### `Rating`
+props:<br>
+
+#
+
+#### `PhotoGallery`
+props:<br>
+
+#
+
+#### `SearchFilter`
+props:<br>
+
+#
+
+#### `FilterOption`
+props:<br>
+
+#
+
+#### `EquipmentList`
+props:<br>
+
+#
+
+#### `EquipmentItem`
+props:<br>
+`name`<br>
+`description`<br>
+`photo`<br>
+`needsReplaced`<br>
+
+#
+
+#### `WishList`
+props:<br>
+
+#
+
+#### `WishListItem`
+props:<br>
+`isPriority`<br>
+`link`<br>
+`price`<br>
+
+#
+
+#### `isPurchased Handler`
+props:<br>
