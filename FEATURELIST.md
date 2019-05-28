@@ -1,7 +1,7 @@
 # Brew Log Features
 Brain dump of desired features for this project, as well as potentially useful resources, such as helpful JavaScript libraries.
 
-For a more detailed description of the application components, hierarchy, and prop definitions, visit the [Application Architecture](/Architecture.md) doc in the repo.
+For a more detailed description of the application components, hierarchy, and prop definitions, visit the [Application Architecture](/ARCHITECTURE.md) doc in the repo.
 
 #### Table of Contents
 [Brew Log List](#brew-log-list)<br>

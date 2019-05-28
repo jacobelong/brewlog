@@ -9,7 +9,7 @@ To install BrewLog, simply run `yarn install` in the project directory, and then
 ## Docs
 
 [Feature List](/FEATURELIST.md)<br>
-[Application Architecture](/Architecture.md)
+[Application Architecture](/ARCHITECTURE.md)
 
 ---
 
