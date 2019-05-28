@@ -2,12 +2,10 @@
 Brain dump of desired features for this project, as well as potentially useful resources, such as helpful JavaScript libraries. Create a simple outline of components, props, and hierarchy.
 
 #### Table of Contents
-###### Features List
 [Brew Log List](#brew-log-list)<br>
 [Brew Log](#brew-log)<br>
 [Equipment List](#equipment-list)<br>
 [Resources](#resources)<br>
-
 [Component Hierarchy](#component-hierarchy)<br>
 
 ## Features List
