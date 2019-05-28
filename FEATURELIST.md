@@ -4,12 +4,22 @@ Brain dump of desired features for this project, as well as potentially useful r
 For a more detailed description of the application components, hierarchy, and prop definitions, visit the [Application Architecture](/ARCHITECTURE.md) doc in the repo.
 
 #### Table of Contents
+[General Features](#general-features)
 [Brew Log List](#brew-log-list)<br>
 [Brew Log](#brew-log)<br>
 [Equipment List](#equipment-list)<br>
 [Resources](#resources)<br>
 
 ## Features List
+
+### General Features
+
+#### Setup/installation wizard
+[ ] Setup environment/paths
+[ ] MongoDB config
+[ ] Brewery/User info
+[ ] Import BeerSmith/BeerXML file to start
+[ ] Set options (ºF/ºC, Metric/Imperial, etc)
 
 ### Brew Log List
 * Display all brew logs
@@ -63,3 +73,5 @@ For a more detailed description of the application components, hierarchy, and pr
 ### Resources
 * [https://github.com/homebrewing/brauhausjs](https://github.com/homebrewing/brauhausjs)
 * [https://github.com/homebrewing/tapline](https://github.com/homebrewing/tapline)
+* [https://www.npmjs.com/package/react-step-wizard](https://www.npmjs.com/package/react-step-wizard) (for setup wizard)
+* [https://github.com/americanexpress/react-albus](https://github.com/americanexpress/react-albus) (for setup wizard)

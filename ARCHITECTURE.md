@@ -3,26 +3,37 @@ Listing of component hierarchy and prop definitions which describe the overall a
 
 ## Component Hierarchy
 - [`App`](#app)
-	- [`BrewLogList`](#brewloglist)
-		- [`BrewLog`](#brewlog)
-			- [`Recipe`](#recipe)
-				- [`Ingredient`](#ingredient)
-				- [`WaterProfile`](#waterprofile)
-				- [`BJCPStyle`](#bjcpstyle)
-			- [`Brewer`](#brewer)
-			- [`Rating`](#rating)
-			- [`PhotoGallery`](#photogallery)
-		- [`Search/Filter`](#searchfilter)
-			- [`FilterOption`](#filteroption)
-	- [`EquipmentList`](#equipmentlist)
-	    - [`EquipmentItem`](#equipmentitem)
-	- [`WishList`](#wishlist)
+  - [`Brewer`](#brewer)
+    - [`Brewery`](#brewery)
+	    - [`BrewLogList`](#brewloglist)
+		    - [`BrewLog`](#brewlog)
+			    - [`Recipe`](#recipe)
+				    - [`Ingredient`](#ingredient)
+            - [`WaterProfile`](#waterprofile)
+            - [`BJCPStyle`](#bjcpstyle)
+			      - [`Rating`](#rating)
+			    - [`PhotoGallery`](#photogallery)
+		    - [`Search/Filter`](#searchfilter)
+			    - [`FilterOption`](#filteroption)
+	    - [`EquipmentList`](#equipmentlist)
+	      - [`EquipmentItem`](#equipmentitem)
+	  - [`WishList`](#wishlist)
 	    - [`WishListItem`](#wishlistitem)
-		- [`isPurchased handler`](#ispurchased-handler)
+		    - [`isPurchased handler`](#ispurchased-handler)
 		
 ## Component Definitions
 
 #### `App`
+props:<br>
+
+#
+
+#### `Brewer`
+props:<br>
+
+#
+
+#### `Brewery`
 props:<br>
 
 #
@@ -61,11 +72,6 @@ props:<br>
 #
 
 #### `BJCPStyle`
-props:<br>
-
-#
-
-#### `Brewer`
 props:<br>
 
 #
