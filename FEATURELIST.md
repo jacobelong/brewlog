@@ -2,12 +2,13 @@
 Brain dump of desired features for this project, as well as potentially useful resources, such as helpful JavaScript libraries. Create a simple outline of components, props, and hierarchy.
 
 #### Table of Contents
-[Feature List](#features-list)<br>
+###### Features List
 [Brew Log List](#brew-log-list)<br>
 [Brew Log](#brew-log)<br>
 [Equipment List](#equipment-list)<br>
 [Resources](#resources)<br>
-[Component Hierarchy](#component-hierarchy)<br>
+###### Component Hierarchy
+[Overview](#component-hierarchy)<br>
 
 ## Features List
 
@@ -67,23 +68,23 @@ Brain dump of desired features for this project, as well as potentially useful r
 ---
 
 ## Component Hierarchy
-- `App`
-	- `BrewLogList`
-		- `BrewLog`
-			- `Recipe` : [props](#recipe)
-				- `Ingredient` : [props](#ingredient)
-				- `WaterProfile` : [props](#waterprofile)
-				- `BJCPStyle` : [props](#bjcpstyle)
-			- `Brewer` : [props](#brewer)
-			- `Rating` : [props](#rating)
-			- `PhotoGallery` : [props](#photogallery)
-		- `Search/Filter`
-			- `FilterOption`
-	- `EquipmentList`
-	    - `EquipmentItem` : [props](#equipmentitem)
-	- `WishList`
-	    - `WishListItem` : [props](#wishlistitem)
-		- isPurchased handler : [props](#ispurchased-handler)
+- [`App`](#app)
+	- [`BrewLogList`](#brewloglist)
+		- [`BrewLog`](#brewlog)
+			- [`Recipe`](#recipe)
+				- [`Ingredient`](#ingredient)
+				- [`WaterProfile`](#waterprofile)
+				- [`BJCPStyle`](#bjcpstyle)
+			- [`Brewer`](#brewer)
+			- [`Rating`](#rating)
+			- [`PhotoGallery`](#photogallery)
+		- [`Search/Filter`](#searchfilter)
+			- [`FilterOption`](#filteroption)
+	- [`EquipmentList`](#equipmentlist)
+	    - [`EquipmentItem`](#equipmentitem)
+	- [`WishList`](#wishlist)
+	    - [`WishListItem`](#wishlistitem)
+		- [`isPurchased handler`](#ispurchased-handler)
 		
 ### App
 
@@ -100,6 +101,12 @@ Brain dump of desired features for this project, as well as potentially useful r
 - `tastingNotes`
 - `stats`
 - `version`
+
+### Ingredient
+
+### WaterProfile
+
+### BJCPStyle
 
 ### Brewer
 
