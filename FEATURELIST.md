@@ -1,4 +1,5 @@
 # Brew Log Features
+Brain dump of desired features for this project, as well as potentially useful resources, such as helpful JavaScript libraries.
 
 ## Brew Log List
 * Display all brew logs
@@ -12,7 +13,7 @@
 	* Both?
 * What else…?
   
-# Brew Log
+## Brew Log
 * Name of beer
 * Brew date
 * Ingredients list
