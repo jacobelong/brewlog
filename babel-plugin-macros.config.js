@@ -1,5 +1,5 @@
 module.exports = {
   tailwind: {
-    config: './src/tailwind.js',
-  },
-};
+    styled: '@emotion/styled'
+  }
+}
