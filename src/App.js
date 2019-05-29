@@ -6,9 +6,8 @@ import Container from './components/Container';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container max-w-full">
       <Header />
-      <div style={{height: 65 + 'px'}}></div>
       <Container />
       <Footer />
     </div>

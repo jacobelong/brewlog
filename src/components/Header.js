@@ -13,10 +13,10 @@ export default class Header extends Component {
 
   render() {
     return (
-      <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
-        <div className="flex items-center flex-shrink-0 text-white mr-6">
+      <nav className="flex items-center justify-between flex-wrap p-6 shadow-sm bg-white border border-b-1 border-gray-300">
+        <div className="flex items-center flex-shrink-0 text-gray-800 mr-6">
           <i className="fas fa-beer fill-current mr-w mr-2"></i>
-          <span className="font-bold text-xl tracking-tight">BrewLog</span>
+          <span className="font-semibold text-xl tracking-tight">BrewLog</span>
         </div>
         <div className="block lg:hidden">
           <button className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
@@ -36,7 +36,7 @@ export default class Header extends Component {
             </a>
           </div>
           <div>
-            <a href="/download" className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
+            <a href="/download" className="btn btn-primary">Download</a>
           </div>
         </div>
       </nav>

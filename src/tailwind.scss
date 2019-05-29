@@ -1,4 +1,8 @@
 // Import Tailwind Libs
 @tailwind base;
 @tailwind components;
+
+@import 'styles/components';
+
 @tailwind utilities;
+@tailwind screens;
