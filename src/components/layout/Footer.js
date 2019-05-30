@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer className="border-t border-gray-300 py-8 text-xs text-gray-500 text-center">
+  <footer className="border-t border-gray-300 py-8 text-xs text-gray-500 text-center bg-white">
     &copy; The Homebrew Fool &nbsp;&middot;&nbsp; Brewed with <i className="fas fa-heart text-red-500"></i> in Indianapolis & Nashville
 
     <div className="float-right text-sm mr-8">

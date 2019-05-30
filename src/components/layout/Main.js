@@ -9,20 +9,32 @@ import Equipment from '../Equipment'
 import Wishlist from '../Wishlist'
 import Setup from '../setup/'
 
-const Main = () => (
-  <div className="container mx-auto max-w-full my-10 px-8">
-    <Switch>
-      {/* Main App Routes */}
-      <Route exact path="/" component={Dashboard} />
-      <Route path="/brews" component={Brews} />
-      <Route path="/recipes" component={Recipes} />
-      <Route path="/equipment" component={Equipment} />
-      <Route path="/wishlist" component={Wishlist} />
+const Main = (props) => {
+  return (
+    <div className="container mx-auto max-w-full my-10 px-8">
+      <Switch>
+        {/* Dashboard Routes */}
+        <Route exact path="/" render={ () => <Dashboard data={props} />} />
 
-      {/* Other Routes (Setup/Auth) */}
-      <Route path="/setup" component={Setup} />
-    </Switch>
-  </div>
-);
+        {/* Brews Routes */}
+        <Route exact path="/brews" render={ () => <Brews brews={props.appData.brews} />} />
+        <Route path="/brews/:category/:title" component={Brews} />
+
+        {/* Recipes Routes */}
+        <Route exactpath="/recipes" render={ () => <Recipes recipes={props.appData.recipes} />} />
+        <Route path="/recipes/:name" component={Recipes} />
+
+        {/* Equipment Routes */}
+        <Route path="/equipment" render={ () => <Equipment equipment={props.appData.equipment} />} />
+
+        {/* Wishlist Routes */}
+        <Route path="/wishlist" render={ () => <Wishlist wishlist={props.appData.wishlist} />} />
+
+        {/* Other Routes (Setup/Auth) */}
+        <Route path="/setup" component={Setup} />
+      </Switch>
+    </div>
+  );
+}
 
 export default Main;
