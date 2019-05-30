@@ -7,7 +7,7 @@ import Brews from '../Brews'
 import Recipes from '../Recipes'
 import Equipment from '../Equipment'
 import Wishlist from '../Wishlist'
-
+import Setup from '../util/Setup'
 
 const Main = () => (
   <div className="container mx-auto max-w-full my-10 px-8">
@@ -17,6 +17,7 @@ const Main = () => (
       <Route path="/recipes" component={Recipes} />
       <Route path="/equipment" component={Equipment} />
       <Route path="/wishlist" component={Wishlist} />
+      <Route path="/setup" component={Setup} />
     </Switch>
   </div>
 );
