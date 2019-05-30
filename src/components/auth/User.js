@@ -13,8 +13,10 @@ export default class User extends Component {
   handleClick = e => {
     let userMenu = document.getElementById('userMenu');
     if (this.node.contains(e.target)) {
-      if (!userMenu.contains(e.target))
-        this.setState({ showUserMenu: !this.state.showUserMenu })
+      this.setState({ showUserMenu: !this.state.showUserMenu })
+      if (userMenu.contains(e.target)) {
+        this.setState({ showUserMenu: false }) // reset
+      }
     } else {
       this.setState({ showUserMenu: false })
     }
@@ -30,6 +32,7 @@ export default class User extends Component {
 
   render() {
     const user = this.props.user;
+    const userMenuItem = "block py-1 px-6 text-sm text-gray-800 hover:bg-blue-100 hover:text-blue-500"
 
     return (
       <div>
@@ -43,11 +46,11 @@ export default class User extends Component {
             <i className="fas fa-angle-down"></i>
           </button>
 
-          <div id="userMenu" className={`absolute shadow-xl rounded p-4 right-0 w-64 border border-gray-400 mt-1 bg-white ${!this.state.showUserMenu ? "hidden" : ""}`}>
+          <div id="userMenu" className={`absolute shadow-xl rounded py-2 right-0 w-48 border border-gray-400 mt-1 bg-white ${!this.state.showUserMenu ? "hidden" : ""}`}>
             <ul>
-              <li><Link to="/user/profile">Profile</Link></li>
-              <li><Link to="/user/brewery">Brewery</Link></li>
-              <li><Link to="/auth/logout">Sign out</Link></li>
+              <li><Link to="/user/profile" className={userMenuItem}>Profile</Link></li>
+              <li><Link to="/user/brewery" className={userMenuItem}>Brewery</Link></li>
+              <li><Link to="/auth/logout" className={userMenuItem}>Sign out</Link></li>
             </ul>
           </div>
         </div>
