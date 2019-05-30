@@ -1,16 +1,30 @@
-import React from 'react';
+import React from 'react'
+import BrewLogList from './BrewLogList'
+import BrewLog from './BrewLog'
 
 const Container = () => (
-  <div className="Container">
+  <div className="container mx-auto max-w-full my-10 px-8">
     <section className="BrewLogList">
       <div className="Grid Grid--fullwidth">
         <h5 className="SectionLabel">Brew Log</h5>
-        <ul className="BrewLogList">
-          <li className="BrewLogList-Item"><a href="/brews/new-year-ipa">New Year IPA</a></li>
-          <li className="BrewLogList-Item"><a href="/brews/svetle-12">Svêtlé 12º</a></li>
-          <li className="BrewLogList-Item"><a href="/brews/gingerbread-brown-ale">Gingerbread Brown Ale</a></li>
-          <li className="BrewLogList-Item"><a href="/brews/orsett-ale">Orsett Ale</a></li>
-        </ul>
+        <BrewLogList>
+          <BrewLog
+            title="New Year IPA"
+            href="/brews/new-year-ipa"
+          />
+          <BrewLog
+            title="Svêtlé 12º"
+            href="/brews/svetle-12"
+          />
+          <BrewLog
+            title="Gingerbread Brown Ale"
+            href="/brews/gingerbread-brown-ale"
+          />
+          <BrewLog
+            title="Orsett Ale"
+            href="/brews/orsett-ale"
+          />
+        </BrewLogList>
       </div>
     </section>
   </div>

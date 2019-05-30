@@ -599,6 +599,47 @@ video {
   height: auto;
 }
 
+.btn {
+  display: inline-block;
+  font-size: 0.875rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  line-height: 1;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+}
+
+.btn-primary {
+  color: #2d3748;
+  border-color: #cbd5e0;
+}
+
+.btn-primary:hover {
+  border-color: #bee3f8;
+  color: #4299e1;
+  background-color: #ebf8ff;
+}
+
+@media (min-width: 1024px) {
+  .btn {
+    margin-top: 0;
+  }
+}
+
+.active {
+  border-bottom-width: 2px;
+  border-color: #4299e1;
+  color: #4299e1;
+}
+
+.slow-spin {
+  -webkit-animation: fa-spin 9s infinite linear;
+          animation: fa-spin 9s infinite linear;
+}
+
 .container {
   width: 100%;
 }
@@ -624,37 +665,6 @@ video {
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
-  }
-}
-
-.btn {
-  display: inline-block;
-  font-size: 0.875rem;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  line-height: 1;
-  border-width: 1px;
-  border-radius: 0.25rem;
-  margin-top: 1rem;
-}
-
-.btn-primary {
-  color: #2d3748;
-  border-color: #cbd5e0;
-}
-
-.btn-primary:hover {
-  border-color: transparent;
-  color: #4299e1;
-  background-color: #ebf8ff;
-}
-
-@media (min-width: 1024px) {
-  .btn {
-    margin-top: 0;
-    color: #feb2b2;
   }
 }
 

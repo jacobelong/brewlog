@@ -1,18 +1,2 @@
-.btn {
-  @apply inline-block text-sm px-5 py-3 leading-none border rounded mt-4;
-}
-
-.btn-primary {
-  @apply text-gray-800 border-gray-400;
-}
-
-.btn-primary:hover {
-  @apply border-transparent text-blue-500 bg-blue-100
-}
-
-@screen lg {
-  .btn {
-    @apply mt-0;
-    @apply text-red-300;
-  }
-}
+@import './components/button';
+@import './components/util';
