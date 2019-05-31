@@ -1,33 +1,35 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-export default class User extends Component {
+export default class UserMenu extends Component {
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      showUserMenu: false,
-    }
-  }  
+  state = {
+    showUserMenu: false,
+  } 
 
   handleClick = e => {
     let userMenu = document.getElementById('userMenu');
     if (this.node.contains(e.target)) {
-      this.setState({ showUserMenu: !this.state.showUserMenu })
-      if (userMenu.contains(e.target)) {
-        this.setState({ showUserMenu: false }) // reset
-      }
+      if (!userMenu.contains(e.target))
+        this.setState({ showUserMenu: !this.state.showUserMenu })
+        // Need to figure out how to close the menu after a menu item has been clicked the page reroutes
+      // if (userMenu.contains(e.target)) {
+        // this.setState({ showUserMenu: false }) // reset
+      // }
     } else {
-      this.setState({ showUserMenu: false })
+      if (this.state.showUserMenu)
+        this.setState({ showUserMenu: false })
     }
   };
 
   componentWillMount() {
-    document.addEventListener('mousedown', this.handleClick);
+    if (this.props.isLoggedIn)
+      document.addEventListener('mousedown', this.handleClick);
   }
 
   componentWillUnmount() {
-    document.removeEventListener('mousedown', this.handleClick);
+    if (this.props.isLoggedIn)
+      document.removeEventListener('mousedown', this.handleClick);
   }
 
   render() {
@@ -36,7 +38,7 @@ export default class User extends Component {
 
     return (
       <div>
-        { user.isLoggedIn ?
+        { this.props.isLoggedIn ?
         <div className="relative" ref={node => this.node = node}>
           <button
             id="userMenuButton"
