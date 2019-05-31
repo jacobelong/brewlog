@@ -1,98 +1,150 @@
 {
   "user": {
-    "name": "Jake",
-    "brewery": "Covenant Brewing Co.",
-    "city": "Indianapolis",
-    "state": "IN",
-    "isLoggedIn": true
-  },
-  "brews": [
-    {
-      "name": "London Fog Hazy PA Take 1",
-      "brewedOnDate": "21/11/2019",
-      "recipeID": 0,
-      "brewers": [
-        "Jake"
-      ],
-      "batchSizeGallons": 5.25,
-      "type": "All Grain"
-    }
-  ],
-  "recipes": [
-    {
-      "id": 1,
-      "name": "London Fog Hazy Pale Ale",
-      "stats": {
-        "bjcpStyle": "American IPA",
-        "targetOG": 1.055,
-        "targetFG": 1.012,
-        "targetABV": 4.8,
-        "targetSRM": 4,
-        "targetIBU": 60
-      },
-      "ingredients": [
-        {
-          "Rahr 2-row pale malt": true,
-          "amount": 6,
-          "measure": "lb"
-        },
-        {
-          "Rahr 2-row pale malt": true,
-          "amount": 6,
-          "measure": "lb"
-        },
-        {
-          "Rahr 2-row pale malt": true,
-          "amount": 6,
-          "measure": "lb"
-        },
-        {
-          "Rahr 2-row pale malt": true,
-          "amount": 6,
-          "measure": "lb"
-        }
-      ],
-      "ratingIndex": 2 
+    "id": 0,
+    "isLoggedIn": true,
+    "userInfo": {
+      "name": "Jake",
+      "brewery": "Covenant Brewing Co.",
+      "city": "Indianapolis",
+      "state": "IN"
     },
-    {
-      "id": 2,
-      "name": "Svetle 12",
-      "stats": {
-        "bjcpStyle": "Bohemian Pilsner",
-        "targetOG": 1.049,
-        "targetFG": 1.006,
-        "targetABV": 5.0,
-        "targetSRM": 3,
-        "targetIBU": 45
+    "brews": [
+      {
+        "id": 0,
+        "name": "London Fog Hazy PA Take 1",
+        "brewedOnDate": "21/4/2019",
+        "recipeID": 1,
+        "brewers": [
+          "Jake"
+        ],
+        "batchSizeGallons": 5.25,
+        "type": "All Grain"
       },
-      "ingredients": [
-        {
-          "Rahr 2-row pale malt": true,
-          "amount": 6,
-          "measure": "lb"
+      {
+        "id": 1,
+        "name": "Svetle 12",
+        "brewedOnDate": "21/01/2019",
+        "recipeID": 2,
+        "brewers": [
+          "Jake"
+        ],
+        "batchSizeGallons": 5.5,
+        "type": "All Grain"
+      }
+    ],
+    "recipes": [
+      {
+        "id": 1,
+        "name": "London Fog Hazy Pale Ale",
+        "stats": {
+          "bjcpStyle": "American IPA",
+          "targetOG": 1.055,
+          "targetFG": 1.012,
+          "targetABV": 4.8,
+          "targetSRM": 4,
+          "targetIBU": 60
         },
-        {
-          "Rahr 2-row pale malt": true,
-          "amount": 6,
-          "measure": "lb"
+        "ingredients": [
+          {
+            "Rahr 2-row pale malt": true,
+            "amount": 6,
+            "measure": "lb"
+          },
+          {
+            "Rahr 2-row pale malt": true,
+            "amount": 6,
+            "measure": "lb"
+          },
+          {
+            "Rahr 2-row pale malt": true,
+            "amount": 6,
+            "measure": "lb"
+          },
+          {
+            "Rahr 2-row pale malt": true,
+            "amount": 6,
+            "measure": "lb"
+          }
+        ],
+        "ratingIndex": 2 
+      },
+      {
+        "id": 2,
+        "name": "Svetle 12",
+        "stats": {
+          "bjcpStyle": "Bohemian Pilsner",
+          "targetOG": 1.049,
+          "targetFG": 1.006,
+          "targetABV": 5.0,
+          "targetSRM": 3,
+          "targetIBU": 45
         },
-        {
-          "Rahr 2-row pale malt": true,
-          "amount": 6,
-          "measure": "lb"
+        "ingredients": [
+          {
+            "Rahr 2-row pale malt": true,
+            "amount": 6,
+            "measure": "lb"
+          },
+          {
+            "Rahr 2-row pale malt": true,
+            "amount": 6,
+            "measure": "lb"
+          },
+          {
+            "Rahr 2-row pale malt": true,
+            "amount": 6,
+            "measure": "lb"
+          },
+          {
+            "Rahr 2-row pale malt": true,
+            "amount": 6,
+            "measure": "lb"
+          }
+        ],
+        "ratingIndex": 0 
+      },
+      {
+        "id": 3,
+        "name": "Motorboat Oatmeal Extra Stout",
+        "stats": {
+          "bjcpStyle": "Oatmeal Stout",
+          "targetOG": 1.049,
+          "targetFG": 1.006,
+          "targetABV": 5.0,
+          "targetSRM": 3,
+          "targetIBU": 45
         },
-        {
-          "Rahr 2-row pale malt": true,
-          "amount": 6,
-          "measure": "lb"
-        }
-      ],
-      "ratingIndex": 0 
-    }
-  ],
-  "ratings": [
-    "Thumbs Up",
-    "Thumbs Down",
-    "Would Revise"
-  ]
+        "ingredients": [
+          {
+            "Rahr 2-row pale malt": true,
+            "amount": 6,
+            "measure": "lb"
+          },
+          {
+            "Rahr 2-row pale malt": true,
+            "amount": 6,
+            "measure": "lb"
+          },
+          {
+            "Rahr 2-row pale malt": true,
+            "amount": 6,
+            "measure": "lb"
+          },
+          {
+            "Rahr 2-row pale malt": true,
+            "amount": 6,
+            "measure": "lb"
+          }
+        ],
+        "ratingIndex": 0 
+      }
+    ]
+  },
+  "appDefaults": {
+    "ratings": [
+      "Thumbs Up",
+      "Thumbs Down",
+      "Would Revise"
+    ]
+  }
 }
