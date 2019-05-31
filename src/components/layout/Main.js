@@ -17,18 +17,18 @@ const Main = (props) => {
         <Route exact path="/" render={ () => <Dashboard data={props} />} />
 
         {/* Brews Routes */}
-        <Route exact path="/brews" render={ () => <Brews brews={props.appData.brews} />} />
-        <Route path="/brews/:category/:title" component={Brews} />
+        <Route exact path="/brews" render={ () => <Brews brews={props.appData.user.brews} /> } />
+        {/* <Route path="/brews/:category/:title" component={Brews} /> */}
 
         {/* Recipes Routes */}
-        <Route exactpath="/recipes" render={ () => <Recipes recipes={props.appData.recipes} />} />
-        <Route path="/recipes/:name" component={Recipes} />
+        <Route exact path="/recipes" render={() => <Recipes recipes={props.appData.user.recipes} /> } />
+        {/* <Route path="/recipes/:name" component={Recipes} /> */}
 
         {/* Equipment Routes */}
-        <Route path="/equipment" render={ () => <Equipment equipment={props.appData.equipment} />} />
+        <Route path="/equipment" render={ () => <Equipment equipment={props.appData.user.equipment} /> } />
 
         {/* Wishlist Routes */}
-        <Route path="/wishlist" render={ () => <Wishlist wishlist={props.appData.wishlist} />} />
+        <Route path="/wishlist" render={ () => <Wishlist wishlist={props.appData.user.wishlist} /> } />
 
         {/* Other Routes (Setup/Auth) */}
         <Route path="/setup" component={Setup} />

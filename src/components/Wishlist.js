@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const Wishlist = () => (
-  <h1 className="text-2xl font-semibold text-gray-700 mb-4">Wishlist</h1>
-);
-
-export default Wishlist;
+export default class Wishlist extends Component {
+  render() {
+    // console.log(this.props, "FilterItems component")
+    return (
+      <h1>Wishlist</h1>
+    );
+  }
+}

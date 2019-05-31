@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const Equipment = () => (
-  <h1>Equipment</h1>
-);
-
-export default Equipment;
+export default class Equipment extends Component {
+  render() {
+    // console.log(this.props, "FilterItems component")
+    return (
+      <h1>Equipment</h1>
+    );
+  }
+}
