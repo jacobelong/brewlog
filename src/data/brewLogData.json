@@ -71,7 +71,7 @@
       },
       {
         "id": 2,
-        "name": "Svetle 12",
+        "name": "Světlé 12º",
         "type": "All Grain",
         "stats": {
           "bjcpStyle": "Bohemian Pilsner",
@@ -83,22 +83,22 @@
         },
         "ingredients": [
           {
-            "Rahr 2-row pale malt": true,
+            "name": "Rahr 2-row pale malt",
             "amount": 6,
             "measure": "lb"
           },
           {
-            "Rahr 2-row pale malt": true,
+            "name": "Rahr 2-row pale malt",
             "amount": 6,
             "measure": "lb"
           },
           {
-            "Rahr 2-row pale malt": true,
+            "name": "Rahr 2-row pale malt",
             "amount": 6,
             "measure": "lb"
           },
           {
-            "Rahr 2-row pale malt": true,
+            "name": "Rahr 2-row pale malt",
             "amount": 6,
             "measure": "lb"
           }
