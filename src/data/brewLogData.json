@@ -36,6 +36,7 @@
       {
         "id": 1,
         "name": "London Fog Hazy Pale Ale",
+        "type": "All Grain",
         "stats": {
           "bjcpStyle": "American IPA",
           "targetOG": 1.055,
@@ -71,6 +72,7 @@
       {
         "id": 2,
         "name": "Svetle 12",
+        "type": "All Grain",
         "stats": {
           "bjcpStyle": "Bohemian Pilsner",
           "targetOG": 1.049,
@@ -106,6 +108,7 @@
       {
         "id": 3,
         "name": "Motorboat Oatmeal Extra Stout",
+        "type": "All Grain",
         "stats": {
           "bjcpStyle": "Oatmeal Stout",
           "targetOG": 1.049,
