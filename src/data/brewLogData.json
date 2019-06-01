@@ -120,26 +120,46 @@
         "ingredients": [
           {
             "Rahr 2-row pale malt": true,
-            "amount": 6,
+            "quantity": 6,
             "measure": "lb"
           },
           {
             "Rahr 2-row pale malt": true,
-            "amount": 6,
+            "quantity": 6,
             "measure": "lb"
           },
           {
             "Rahr 2-row pale malt": true,
-            "amount": 6,
+            "quantity": 6,
             "measure": "lb"
           },
           {
             "Rahr 2-row pale malt": true,
-            "amount": 6,
+            "quantity": 6,
             "measure": "lb"
           }
         ],
         "ratingIndex": 0 
+      }
+    ],
+    "equipment": [
+      {
+        "id": 0,
+        "name": "10gal Blichmann BoilerMaker G2 Brew Pot",
+        "quantity": 1,
+        "description": [
+          {
+            "specs": "Dimensions: 13.9 x 16.4-inches (W x H) Add 2.25-inches for the lid. Dead space: 0.13gal"
+          }
+        ],
+        "needsReplacement": false
+      },
+      {
+        "id": 1,
+        "name": "The Brew Bag® for 30-42qt Kettles",
+        "quantity": 1,
+        "description": [],
+        "needsReplacement": true
       }
     ]
   },
